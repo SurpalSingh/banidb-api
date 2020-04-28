@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const cacheControl = require('express-cache-controller');
 const { createPool } = require('mariadb');
-const config = require('./api/config');
 const swaggerUi = require('swagger-ui-express');
+const config = require('./api/config');
 const routes = require('./api/routes');
 const swaggerDocument = require('./swagger.json');
 
